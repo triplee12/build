@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+    margin: 0;
+    padding: 0;
+}
+
+.section-one {
+    width: 100%;
+    background-color: teal;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+    margin: 0;
+}
+
+.section-two {
+    width: 100%;
+    background-color: coral;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+    margin: 0;
+}
+
+.section-three {
+    width: 100%;
+    background-color: burlywood;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+    margin: 0;
+}
+
+.section-four {
+    width: 100%;
+    background-color: honeydew;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin: 0;
+    padding: 10px;
+}
+
+.one {
+    height: 100vh;
+    width: 100%;
+    background: url("/HtmlProjects/parallax/img/1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    margin-top: 0;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.two {
+    height: 100vh;
+    width: 100%;
+    background: url("/HtmlProjects/parallax/img/2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: deeppink;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    /* background-position: bottom; */
+}
+
+.three {
+    height: 100vh;
+    width: 100%;
+    background: url("/HtmlProjects/parallax/img/3.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: darkred;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    align-content: center;
+    align-content: center;
+    text-align: center;
+    /* background-position: bottom; */
+}
+
+.four {
+    height: 100vh;
+    width: 100%;
+    background: url("/HtmlProjects/parallax/img/4.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    align-content: center;
+    text-align: center;
+    /* background-position: bottom; */
+}
+
+#div {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    background: wheat;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
