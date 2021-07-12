@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+h1 {
+    height: 20px;
+    text-transform: capitalize;
+    font-size: large;
+    font-weight: 800;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    background: wheat;
+}
+
+body {
+    background: rgb(196, 182, 188);
+    min-width: 100%;
+    max-width: 100%;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background: wheat;
+}
+
+nav {
+    height: 20px;
+    width: 100%;
+    background: wheat;
+    margin-top: 0;
+    padding: 4px;
+    margin-bottom: 0;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+    /* display: flex; */
+}
+
+.float-r {
+    float: right;
+}
+
+.float-l {
+    float: left;
+}
+
+a {
+    color: black;
+    border: 1px solid lightcoral;
+}
+
+a:hover {
+    background: lightcoral;
+    color: wheat;
+}
+
+main {
+    height: 100%;
+}
+
+section {
+    display: grid;
+    height: auto;
+}
+
+.seafood,
+.wines,
+.fruits,
+.snacks,
+.beverages {
+    height: 100%;
+}
+
+.image {
+    min-width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(250px, 250px));
+}
+
+span {
+    height: 250px;
+    min-width: 250px;
+    border: 2px solid wheat;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    align-self: center;
+    overflow: hidden;
+}
+
+footer {
+    height: 20px;
+    width: 100%;
+    margin-bottom: 0;
+    background: wheat;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
