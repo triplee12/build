@@ -1,0 +1,129 @@
+body {
+    background: darkslategray;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 0;
+}
+
+.banna {
+    width: 60px;
+    color: sienna;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    float: left;
+    word-break: break;
+}
+
+.date {
+    width: 20px;
+    margin-left: 20px;
+    float: right;
+    text-transform: capitalize;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    font-size: medium;
+}
+
+nav {
+    margin-bottom: 0;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+
+.desc {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+.desc-1 {
+    height: 200px;
+    background: rgb(80, 201, 80);
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+section {
+    background: whitesmoke;
+    height: auto;
+    min-width: 33.33%;
+    margin: 0 auto;
+    padding: 4px;
+    border: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(33.33% 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(33.33% 1fr));
+}
+
+img {
+    height: 330px;
+    width: 100%;
+    overflow: hidden;
+    background: firebrick;
+}
+
+.describe {
+    float: left;
+    width: 70%;
+    left: 500px;
+    top: 10px;
+    border-right: 4px solid whitesmoke;
+    margin-right: 2px;
+    padding: 4px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.image {
+    width: 30%;
+    float: right;
+    margin-left: 10px;
+    padding: 4px;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    position: absolute;
+}
+
+.image img {
+    width: 100px;
+    height: 95px;
+    border-radius: 50%;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+footer {
+    width: 100%;
+    height: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.copyright {
+    float: left;
+}
+
+.footer-nav {
+    float: right;
+}
