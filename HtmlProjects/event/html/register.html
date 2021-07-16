@@ -1,17 +1,12 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Coder Conference - Register</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/HtmlProjects/event/css/style.css">
+    <title>Coder Conference - Schedules</title>
 </head>
 
 <body>
@@ -31,6 +26,41 @@
             <a href="register.html">Register</a>
         </nav>
     </header>
+    <main>
+        <div class="desc-1">
+            <h1>Registration</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae veritatis consequuntur fugiat quos voluptate ut, temporibus in tenetur explicabo dolores dolor laborum aliquid sunt nobis provident commodi consectetur? Placeat, officiis?</p>
+        </div>
+        <section>
+            <div class="form">
+                <form action="." method="post">
+                    <label for="fullname">Full name</label>
+                    <br>
+                    <input type="text" name="fullname" id="fullname" placeholder="Enter Fullname" required>
+                    <br><br>
+                    <label for="Email">Email</label>
+                    <br>
+                    <input type="email" name="Email" id="Email" placeholder="Enter Your Email" required>
+                    <br><br>
+                    <label for="Nop">Number of Passes</label>
+                    <br>
+                    <select name="NoP" id="NoP">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <br><br>
+                    <label for="comment">Comments</label>
+                    <br>
+                    <textarea name="comment" id="comment" cols="60" rows="10" required></textarea>
+                    <br><br>
+                    <button class="button" type="submit">Register</button>
+                </form>
+            </div>
+        </section>
+    </main>
     <footer>
         <div class="copyright">
             Copyright &copy;<a href="http://github.com/triplee12">Triplee12</a>
@@ -43,7 +73,6 @@
             <a href="register.html">Register</a>
         </div>
     </footer>
-    <script src="" async defer></script>
 </body>
 
 </html>
