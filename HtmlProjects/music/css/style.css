@@ -1,0 +1,153 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 99.99%;
+    height: auto;
+    background: darkslategray;
+}
+
+header {
+    width: 97.99%;
+    padding: 2px;
+    height: auto;
+    display: grid;
+    /* background: darkslateblue; */
+    grid-template-columns: repeat(auto, minmax(200px, 1fr));
+    word-spacing: 10px;
+    margin: 0;
+}
+
+.banner {
+    width: auto;
+    float: left;
+    padding: 4px;
+    margin-left: 4px;
+    font-size: larger;
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(248, 246, 246);
+}
+
+.nav {
+    width: auto;
+    float: right;
+    margin-right: 4px;
+    padding: 4px;
+    position: relative;
+    color: white;
+    font-weight: 600;
+}
+
+.nav a {
+    color: white;
+}
+
+.nav a:hover {
+    color: brown;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto, minmax(250px, 1fr));
+}
+
+.site-banner {
+    background: url(/HtmlProjects/music/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+}
+
+button {
+    background: brown;
+    height: 40px;
+    padding: 4px;
+    border: brown;
+    margin: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.sec-3 button {
+    background: rgba(4, 4, 68, 0.664);
+    height: 40px;
+    padding: 4px;
+    border: rgba(4, 4, 68, 0.664);
+    margin: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.sec-5 button {
+    background: white;
+    height: 40px;
+    padding: 4px;
+    border: white;
+    margin-top: 10px;
+    color: black;
+    font-size: large;
+    cursor: pointer;
+}
+
+.sec-2 {
+    height: auto;
+    width: 100%;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.sec-3,
+.sec-5 {
+    height: auto;
+    width: 100%;
+    background: white;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    margin-top: 0;
+}
+
+.img {
+    width: 400px;
+    height: 250px;
+    margin: 4px;
+}
+
+.sec-4 {
+    background: url(/HtmlProjects/music/img/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: brown;
+}
