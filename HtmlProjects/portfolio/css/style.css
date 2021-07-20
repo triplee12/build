@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: darkslategray;
+    width: 98.2vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: rgb(22, 19, 19);
+    height: auto;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    margin-top: 0;
+    padding-inline: 4px;
+    word-spacing: 4px;
+    text-align: center;
+}
+
+h1 {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: floralwhite;
+    font-size: large;
+}
+
+a:hover {
+    background: darkslategray;
+    border-radius: 10%;
+}
+
+main {
+    height: auto;
+    margin-top: 20px;
+}
+
+#about,
+#contact {
+    height: 100px;
+    background: black;
+    text-align: center;
+    color: floralwhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#work {
+    height: auto;
+    text-align: center;
+    color: floralwhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.work-list {
+    width: 90%;
+    min-width: 70%;
+    height: 300px;
+    min-height: 230px;
+    background: lightcoral;
+    margin: 0 30px 30px 30px;
+    /* align-content: center;
+    align-items: center;
+    align-self: center; */
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgb(104, 82, 82);
+}
+
+.work-list img {
+    width: 100%;
+    height: 270px;
+    min-height: 200px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.work-list #desc {
+    width: 100%;
+    height: 30px;
+    background: black;
+}
+
+button {
+    box-shadow: rgb(173, 143, 143);
+    box-sizing: inherit;
+    font-size: large;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+#work button {
+    box-shadow: rgb(173, 143, 143);
+    box-sizing: inherit;
+    font-size: large;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 10%;
+    padding: 2px;
+    margin-bottom: 2px;
+}
+
+footer {
+    background: rgb(22, 19, 19);
+    height: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-inline: 4px;
+    word-spacing: 4px;
+    text-align: center;
+    color: floralwhite;
+}
