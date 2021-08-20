@@ -14,3 +14,8 @@
 - list of recipes
 - recipe info on click
 - save recipe on localStorage
+
+4. Note App
+- CRUD note
+- markedown
+-localstorage
