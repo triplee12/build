@@ -18,4 +18,8 @@
 4. Note App
 - CRUD note
 - markedown
--localstorage
+- localstorage
+
+5. Todos App
+- CRUD todo
+- localstorage
