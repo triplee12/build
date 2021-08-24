@@ -23,3 +23,7 @@
 5. Todos App
 - CRUD todo
 - localstorage
+
+6. Movie App
+- Fetch movies from api
+- Integrate movie search engine
