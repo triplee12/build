@@ -27,3 +27,8 @@
 6. Movie App
 - Fetch movies from api
 - Integrate movie search engine
+
+6. Github Profile App
+- Fetch default user profile
+- Integrate user profile search engine
+- Fetch user repos: slice(0, 9)
