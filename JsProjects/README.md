@@ -31,13 +31,13 @@
 - Fetch movies from api
 - Integrate movie search engine
 
-6. Github Profile App
+7. Github Profile App
 
 - Fetch default user profile
 - Integrate user profile search engine
 - Fetch user repos: slice(0, 9)
 
-7. Drawing App
+8. Drawing App
 
 - Using canvas for drawing
 - Implement clear button
