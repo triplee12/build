@@ -41,3 +41,10 @@
 
 - Using canvas for drawing
 - Implement clear button
+
+9. Password Generator App
+
+- Numbers
+- Letters
+- Symbols
+- Copy to clipboard
