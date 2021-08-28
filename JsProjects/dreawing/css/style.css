@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f5f5c3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+canvas{
+    border: 1px solid #000;
+    box-shadow: 0 5px 10px rgba(38, 4, 46, 0.4), 0 15px 40px rgba(38, 4, 46, 0.4);
+}
+
+.toolbox{
+    background-color: rgb(9, 37, 37);
+    box-shadow: 0 5px 10px rgba(38, 4, 46, 0.4), 0 15px 40px rgba(38, 4, 46, 0.4);
+    display: flex;
+    width: 800px;
+    padding: 0.2rem;
+}
+
+.toolbox > * {
+    border: none !important;
+    background-color: #f5f5c3;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0.15rem;
+    padding: 0.2rem;
+    font-size: 1.2rem;
+    width: 25px;
+}
+
+.toolbox input[type="color"]{
+    border: none;
+    width: 25px;
+    height: 28px;
+}
+
+.toolbox > *:last-child{
+    margin-left: auto;
+}

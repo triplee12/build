@@ -16,19 +16,28 @@
 - save recipe on localStorage
 
 4. Note App
+
 - CRUD note
 - markedown
 - localstorage
 
 5. Todos App
+
 - CRUD todo
 - localstorage
 
 6. Movie App
+
 - Fetch movies from api
 - Integrate movie search engine
 
 6. Github Profile App
+
 - Fetch default user profile
 - Integrate user profile search engine
 - Fetch user repos: slice(0, 9)
+
+7. Drawing App
+
+- Using canvas for drawing
+- Implement clear button
