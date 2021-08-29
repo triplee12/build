@@ -48,3 +48,10 @@
 - Letters
 - Symbols
 - Copy to clipboard
+
+10. Weather Forecast App
+
+- Fetch weather from www.api.openweathermap.org
+- Enter location
+- Get weather data
+- Implement some weather icons
